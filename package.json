@@ -1,26 +1,30 @@
 {
-  "name": "fsweb-s13g4-node-api-project-4",
+  "name": "deploy-ve-en-iyi-pratikler",
   "version": "1.0.0",
-  "description": "Bu challengeda, Heroku'ya deployable olan basit bir Express uygulaması oluşturacaksınız.",
+  "description": "Basit Express API - register, login, users",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.14"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erencoban94/fsweb-s13g4-node-api-project-4.git"
+    "url": "git+https://github.com/caneryaray/fsweb-s13g4-node-api-project-4.git"
   },
-  "author": "",
-  "license": "ISC"
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/caneryaray/fsweb-s13g4-node-api-project-4/issues"
+  },
+  "homepage": "https://github.com/caneryaray/fsweb-s13g4-node-api-project-4#readme"
 }
